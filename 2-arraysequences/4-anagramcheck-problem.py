@@ -17,7 +17,7 @@ Note: Ignore spaces and capitalization.
 So "d go" is an anagram of "God" and "dog" and "o d g".
 """
 
-# My Inital Solution
+# My Initial Solution
 def anagram(s1,s2):
 
     s1 = s1.lower().replace(" ","")
@@ -80,7 +80,7 @@ def anagram2(s1,s2):
     return True
 
 """
-Note for the second solution: The use of DefaultDict from the Collections 
+Note for the second solution: The use of DefaultDict from the Collections
 module would clean up this code quite a bit, and the final for loop could be built
 into the second for loop, but in the above implementation every step is very clear.
 """
