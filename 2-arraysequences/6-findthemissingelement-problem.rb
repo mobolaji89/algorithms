@@ -25,7 +25,7 @@ def finder(a,b)
 
 end
 
-# Solution 3 - for in loop with .include?
+# Solution 3 - for in loop with .include? (Could also use .each loop)
 
 def finder(arr1, arr2)
 
