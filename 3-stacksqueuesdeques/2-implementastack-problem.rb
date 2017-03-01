@@ -8,8 +8,8 @@ class Stack
     # OR @items = []
   end
 
-  def push(x)
-    @items.push(x)
+  def push(item)
+    @items.push(item)
   end
 
   def pop
