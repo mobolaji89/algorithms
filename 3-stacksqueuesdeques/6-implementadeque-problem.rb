@@ -1,4 +1,4 @@
-class Queue
+class Deque
   def initialize
     @items = []
   end
@@ -8,16 +8,21 @@ class Queue
     # OR @items == []
   end
 
-  def enqueue(item)
+  def add_front(item)
+    @items.push(item)
+  end
+
+  def add_rear(item)
     @items.unshift(item)
     # OR @items.insert(0, item)
   end
 
-  def dequeue
-    @items.pop
+  def remove_front
+    @items.shift
+    # OR @items.pop(0)
   end
 
-  def size
-    @items.length
+  def remove_rear
+    @items.pop
   end
 end

@@ -5,7 +5,7 @@ class Stack
 
   def is_empty?
     @items.empty?
-    # OR @items = []
+    # OR @items == []
   end
 
   def push(item)
