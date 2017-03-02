@@ -25,4 +25,8 @@ class Deque
   def remove_rear
     @items.pop
   end
+
+  def size
+    @items.length
+  end
 end
